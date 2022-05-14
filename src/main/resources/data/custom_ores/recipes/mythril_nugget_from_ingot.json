@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "mythril_ingot",
+  "ingredients": [
+    {
+      "item": "custom_ores:mythril_ingot"
+    }
+  ],
+  "result": {
+    "item": "custom_ores:mythril_nugget",
+    "count": 9
+  }
+}

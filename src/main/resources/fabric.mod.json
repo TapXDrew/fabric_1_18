@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "my_first_paper_mod",
+  "id": "custom_ores",
   "version": "${version}",
 
   "name": "First Mod",
@@ -14,16 +14,16 @@
   },
 
   "license": "MIT",
-  "icon": "assets/my_first_paper_mod/icon.png",
+  "icon": "assets/custom_ores/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.bump.my_first_paper_mod.FirstMod"
+      "net.bump.custom_ores.CustomOres"
     ]
   },
   "mixins": [
-    "my_first_paper_mod.mixins.json"
+    "custom_ores.mixins.json"
   ],
 
   "depends": {

@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "my_first_paper_mod:item/raw_mythril"
-  }
-}

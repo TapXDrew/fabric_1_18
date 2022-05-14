@@ -1,0 +1,14 @@
+{
+  "block.custom_ores.mythril_block": "Mythril Block",
+  "block.custom_ores.raw_mythril_block": "Raw Mythril Block",
+
+  "item.custom_ores.raw_mythril": "Raw Mythril",
+  "item.custom_ores.mythril_ingot": "Mythril Ingot",
+  "item.custom_ores.mythril_nugget": "Mythril Nugget",
+
+  "block.custom_ores.mythril_ore": "Mythril Ore",
+  "block.custom_ores.deepslate_mythril_ore": "Deepslate Mythril Ore",
+  "block.custom_ores.netherrack_mythril_ore": "Nether Mythril Ore",
+
+  "itemGroup.custom_ores.mythril": "Mythril Items"
+}

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "my_first_paper_mod:block/raw_mythril_block"
-  }
-}
