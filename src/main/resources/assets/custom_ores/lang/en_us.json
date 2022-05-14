@@ -1,14 +1,14 @@
 {
-  "block.custom_ores.mythril_block": "Mythril Block",
-  "block.custom_ores.raw_mythril_block": "Raw Mythril Block",
+  "block.custom_ores.shadowstone_block": "Shadowstone Block",
+  "block.custom_ores.raw_shadowstone_block": "Raw Shadowstone Block",
 
-  "item.custom_ores.raw_mythril": "Raw Mythril",
-  "item.custom_ores.mythril_ingot": "Mythril Ingot",
-  "item.custom_ores.mythril_nugget": "Mythril Nugget",
+  "item.custom_ores.raw_shadowstone": "Raw Shadowstone",
+  "item.custom_ores.shadowstone_ingot": "Shadowstone Ingot",
+  "item.custom_ores.shadowstone_nugget": "Shadowstone Nugget",
 
-  "block.custom_ores.mythril_ore": "Mythril Ore",
-  "block.custom_ores.deepslate_mythril_ore": "Deepslate Mythril Ore",
-  "block.custom_ores.netherrack_mythril_ore": "Nether Mythril Ore",
+  "block.custom_ores.shadowstone_ore": "Shadowstone Ore",
+  "block.custom_ores.deepslate_shadowstone_ore": "Deepslate Shadowstone Ore",
+  "block.custom_ores.netherrack_shadowstone_ore": "Nether Shadowstone Ore",
 
-  "itemGroup.custom_ores.mythril": "Mythril Items"
+  "itemGroup.custom_ores.shadowstone": "Shadowstone Items"
 }

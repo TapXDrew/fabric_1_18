@@ -1,10 +1,10 @@
 {
   "type": "minecraft:blasting",
-  "group": "mythril_ingot",
+  "group": "shadowstone_ingot",
   "ingredient": {
-    "item": "custom_ores:deepslate_mythril_ore"
+    "item": "custom_ores:deepslate_shadowstone_ore"
   },
-  "result": "custom_ores:mythril_ingot",
+  "result": "custom_ores:shadowstone_ingot",
   "experience": 0.7,
   "cookingtime": 100
 }

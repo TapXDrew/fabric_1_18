@@ -25,7 +25,7 @@
                   }
                 }
               ],
-              "name": "custom_ores:deepslate_mythril_ore"
+              "name": "custom_ores:deepslate_shadowstone_ore"
             },
             {
               "type": "minecraft:item",
@@ -48,7 +48,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "custom_ores:raw_mythril"
+              "name": "custom_ores:raw_shadowstone"
             }
           ]
         }

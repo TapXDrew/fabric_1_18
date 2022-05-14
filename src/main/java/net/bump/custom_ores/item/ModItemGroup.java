@@ -7,6 +7,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup MYTHRIL = FabricItemGroupBuilder.build(new Identifier(CustomOres.MOD_ID, "mythril"),
-            () -> new ItemStack(ModItems.MYTHRIL_INGOT));
+    public static final ItemGroup shadowstone = FabricItemGroupBuilder.build(new Identifier(CustomOres.MOD_ID, "shadowstone"),
+            () -> new ItemStack(ModItems.SHDAOWSTONE_INGOT));
 }

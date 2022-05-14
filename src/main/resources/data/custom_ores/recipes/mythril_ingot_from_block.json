@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "mythril_ingot",
+  "group": "shadowstone_ingot",
   "ingredients": [
     {
-      "item": "custom_ores:mythril_block"
+      "item": "custom_ores:shadowstone_block"
     }
   ],
   "result": {
-    "item": "custom_ores:mythril_ingot",
+    "item": "custom_ores:shadowstone_ingot",
     "count": 9
   }
 }

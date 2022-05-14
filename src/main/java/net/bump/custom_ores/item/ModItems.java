@@ -8,16 +8,16 @@ import net.minecraft.item.Item;
 
 
 public class ModItems {
-    public static final Item MYTHRIL_INGOT = registerItem("mythril_ingot", new Item(new FabricItemSettings()
-            .group(ModItemGroup.MYTHRIL)
+    public static final Item SHDAOWSTONE_INGOT = registerItem("shadowstone_ingot", new Item(new FabricItemSettings()
+            .group(ModItemGroup.shadowstone)
     ));
 
-    public static final Item MYTHRIL_NUGGET = registerItem("mythril_nugget", new Item(new FabricItemSettings()
-            .group(ModItemGroup.MYTHRIL)
+    public static final Item SHDAOWSTONE_NUGGET = registerItem("shadowstone_nugget", new Item(new FabricItemSettings()
+            .group(ModItemGroup.shadowstone)
     ));
 
-    public static final Item RAW_MYTHRIL = registerItem("raw_mythril", new Item(new FabricItemSettings()
-            .group(ModItemGroup.MYTHRIL)
+    public static final Item RAW_SHDAOWSTONE = registerItem("raw_shadowstone", new Item(new FabricItemSettings()
+            .group(ModItemGroup.shadowstone)
     ));
 
 

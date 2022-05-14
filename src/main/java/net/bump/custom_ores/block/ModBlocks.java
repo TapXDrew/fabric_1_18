@@ -14,32 +14,32 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block MYTHRIL_BLOCK = registerBlock("mythril_block",
+    public static final Block SHDAOWSTONE_BLOCK = registerBlock("shadowstone_block",
             new Block(FabricBlockSettings.of(Material.METAL)
                     .strength(6f)
                     .requiresTool()
-            ), ModItemGroup.MYTHRIL);
-    public static final Block RAW_MYTHRIL_BLOCK = registerBlock("raw_mythril_block",
+            ), ModItemGroup.shadowstone);
+    public static final Block RAW_SHDAOWSTONE_BLOCK = registerBlock("raw_shadowstone_block",
             new Block(FabricBlockSettings.of(Material.METAL)
                     .strength(6f)
                     .requiresTool()
-            ), ModItemGroup.MYTHRIL);
+            ), ModItemGroup.shadowstone);
 
-    public static final Block MYTHRIL_ORE = registerBlock("mythril_ore",
+    public static final Block SHDAOWSTONE_ORE = registerBlock("shadowstone_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
                     .strength(4.5f)
                     .requiresTool()
-            ), ModItemGroup.MYTHRIL);
-    public static final Block DEEPSLATE_MYTHRIL_ORE = registerBlock("deepslate_mythril_ore",
+            ), ModItemGroup.shadowstone);
+    public static final Block DEEPSLATE_SHDAOWSTONE_ORE = registerBlock("deepslate_shadowstone_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
                     .strength(5f)
                     .requiresTool()
-            ), ModItemGroup.MYTHRIL);
-    public static final Block NETHERRACK_MYTHRIL_ORE = registerBlock("netherrack_mythril_ore",
+            ), ModItemGroup.shadowstone);
+    public static final Block NETHERRACK_SHDAOWSTONE_ORE = registerBlock("netherrack_shadowstone_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
                     .strength(5f)
                     .requiresTool()
-            ), ModItemGroup.MYTHRIL);
+            ), ModItemGroup.shadowstone);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);

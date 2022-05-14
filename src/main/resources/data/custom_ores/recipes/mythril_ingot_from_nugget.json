@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "custom_ores:mythril_nugget"
+      "item": "custom_ores:shadowstone_nugget"
     }
   },
   "result": {
-    "item": "custom_ores:mythril_ingot"
+    "item": "custom_ores:shadowstone_ingot"
   }
 }

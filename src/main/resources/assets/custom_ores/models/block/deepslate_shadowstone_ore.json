@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "custom_ores:block/deepslate_shadowstone_ore"
+  }
+}

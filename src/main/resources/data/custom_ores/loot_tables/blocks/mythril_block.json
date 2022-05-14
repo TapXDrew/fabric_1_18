@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "custom_ores:mythril_block"
+          "name": "custom_ores:shadowstone_block"
         }
       ],
       "conditions": [
