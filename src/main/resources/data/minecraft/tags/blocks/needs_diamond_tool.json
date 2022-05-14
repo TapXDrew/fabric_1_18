@@ -1,5 +1,10 @@
 {
   "replace": false,
   "values": [
+    "custom_ores:shadowstone_block",
+    "custom_ores:raw_shadowstone_block",
+    "custom_ores:shadowstone_ore",
+    "custom_ores:deepslate_shadowstone_ore",
+    "custom_ores:netherrack_shadowstone_ore"
   ]
 }
