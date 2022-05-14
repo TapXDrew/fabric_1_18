@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "group": "mythril_ingot",
+  "ingredient": {
+    "item": "my_first_paper_mod:mythril_ore"
+  },
+  "result": "my_first_paper_mod:mythril_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

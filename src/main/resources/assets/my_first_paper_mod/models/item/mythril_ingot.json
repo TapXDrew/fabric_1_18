@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "my_first_paper_mod:item/ores/mythril_ingot"
+    "layer0": "my_first_paper_mod:item/mythril_ingot"
   }
 }

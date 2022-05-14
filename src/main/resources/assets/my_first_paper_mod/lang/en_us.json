@@ -1,5 +1,14 @@
 {
+  "block.my_first_paper_mod.mythril_block": "Mythril Block",
+  "block.my_first_paper_mod.raw_mythril_block": "Raw Mythril Block",
+
+  "item.my_first_paper_mod.raw_mythril": "Raw Mythril",
   "item.my_first_paper_mod.mythril_ingot": "Mythril Ingot",
   "item.my_first_paper_mod.mythril_nugget": "Mythril Nugget",
-  "item.my_first_paper_mod.mythril_raw": "Raw Mythril"
+
+  "block.my_first_paper_mod.mythril_ore": "Mythril Ore",
+  "block.my_first_paper_mod.deepslate_mythril_ore": "Deepslate Mythril Ore",
+  "block.my_first_paper_mod.netherrack_mythril_ore": "Nether Mythril Ore",
+
+  "itemGroup.my_first_paper_mod.mythril": "Mythril Items"
 }

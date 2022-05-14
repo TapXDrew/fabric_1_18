@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "my_first_paper_mod:block/mythril_block"
+  }
+}
