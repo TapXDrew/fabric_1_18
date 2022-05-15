@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "custom_ores:block/raw_moonstone_block"
+    }
+  }
+}

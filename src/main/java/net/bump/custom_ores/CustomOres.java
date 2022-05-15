@@ -6,6 +6,10 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class CustomOres implements ModInitializer {
 	public static final  String MOD_ID = "custom_ores";
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
@@ -14,5 +18,17 @@ public class CustomOres implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+	}
+
+	public static String fString(String s, Map<String, Object> data){
+		Matcher matcher = Pattern.compile("\\{(.*?)\\}").matcher(s);
+
+		while(matcher.find()){
+			Object value = data.get(matcher.group(1));
+			if(value != null) {
+				s = s.replace(matcher.group(0), value.toString());
+			}
+		}
+		return s;
 	}
 }

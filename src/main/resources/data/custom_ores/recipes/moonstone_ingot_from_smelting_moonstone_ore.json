@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "moonstone_ingot",
+  "ingredient": {
+    "item": "custom_ores:moonstone_ore"
+  },
+  "result": "custom_ores:moonstone_ingot",
+  "experience": 0.7,
+  "cookingtime": 200
+}

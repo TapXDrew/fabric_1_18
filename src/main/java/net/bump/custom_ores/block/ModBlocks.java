@@ -7,47 +7,46 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block SHDAOWSTONE_BLOCK = registerBlock("shadowstone_block",
+    public static final Block SHDAOWSTONE_BLOCK = registerBlock("moonstone_block",
             new Block(FabricBlockSettings.of(Material.METAL)
                     .strength(6f)
                     .requiresTool()
-            ), ModItemGroup.shadowstone);
-    public static final Block RAW_SHDAOWSTONE_BLOCK = registerBlock("raw_shadowstone_block",
+            ), ModItemGroup.MOONSTONE);
+    public static final Block RAW_SHDAOWSTONE_BLOCK = registerBlock("raw_moonstone_block",
             new Block(FabricBlockSettings.of(Material.METAL)
                     .strength(6f)
                     .requiresTool()
-            ), ModItemGroup.shadowstone);
+            ), ModItemGroup.MOONSTONE);
 
-    public static final Block SHDAOWSTONE_ORE = registerBlock("shadowstone_ore",
+    public static final Block SHDAOWSTONE_ORE = registerBlock("moonstone_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
                     .strength(4.5f)
                     .requiresTool()
-            ), ModItemGroup.shadowstone);
-    public static final Block DEEPSLATE_SHDAOWSTONE_ORE = registerBlock("deepslate_shadowstone_ore",
+            ), ModItemGroup.MOONSTONE);
+    public static final Block DEEPSLATE_SHDAOWSTONE_ORE = registerBlock("deepslate_moonstone_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
                     .strength(5f)
                     .requiresTool()
-            ), ModItemGroup.shadowstone);
-    public static final Block NETHERRACK_SHDAOWSTONE_ORE = registerBlock("netherrack_shadowstone_ore",
+            ), ModItemGroup.MOONSTONE);
+    public static final Block NETHERRACK_SHDAOWSTONE_ORE = registerBlock("netherrack_moonstone_ore",
             new Block(FabricBlockSettings.of(Material.STONE)
                     .strength(5f)
                     .requiresTool()
-            ), ModItemGroup.shadowstone);
+            ), ModItemGroup.MOONSTONE);
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(CustomOres.MOD_ID, name), block);
     }
 
-    private static Item registerBlockItem(String name, Block block, ItemGroup group) {
-        return Registry.register(Registry.ITEM, new Identifier(CustomOres.MOD_ID, name), new BlockItem(block, new FabricItemSettings().group(group)));
+    private static void registerBlockItem(String name, Block block, ItemGroup group) {
+        Registry.register(Registry.ITEM, new Identifier(CustomOres.MOD_ID, name), new BlockItem(block, new FabricItemSettings().group(group)));
     }
 
     public static void registerModBlocks() {

@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "custom_ores:block/raw_shadowstone_block"
-  }
-}

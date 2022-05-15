@@ -7,6 +7,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroup {
-    public static final ItemGroup shadowstone = FabricItemGroupBuilder.build(new Identifier(CustomOres.MOD_ID, "shadowstone"),
+    public static final ItemGroup MOONSTONE = FabricItemGroupBuilder.build(new Identifier(CustomOres.MOD_ID, "moonstone"),
             () -> new ItemStack(ModItems.SHDAOWSTONE_INGOT));
 }
