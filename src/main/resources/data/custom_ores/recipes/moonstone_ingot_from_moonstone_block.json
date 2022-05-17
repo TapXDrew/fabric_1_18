@@ -3,7 +3,7 @@
   "group": "moonstone_ingot",
   "ingredients": [
     {
-      "item": "custom_ores:moonstone_block"
+      "tag": "c:moonstone_blocks"
     }
   ],
   "result": {

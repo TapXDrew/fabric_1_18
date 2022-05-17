@@ -1,17 +1,23 @@
 {
+  "itemGroup.custom_ores.moonstone": "Moonstone Items",
+
   "block.custom_ores.moonstone_block": "Moonstone Block",
   "block.custom_ores.raw_moonstone_block": "Raw Moonstone Block",
-
-  "item.custom_ores.raw_moonstone": "Raw Moonstone",
-  "item.custom_ores.moonstone_ingot": "Moonstone Ingot",
-  "item.custom_ores.moonstone_nugget": "Moonstone Nugget",
 
   "block.custom_ores.moonstone_ore": "Moonstone Ore",
   "block.custom_ores.deepslate_moonstone_ore": "Deepslate Moonstone Ore",
   "block.custom_ores.netherrack_moonstone_ore": "Nether Moonstone Ore",
 
-  "itemGroup.custom_ores.moonstone": "Moonstone Items",
+  "item.custom_ores.raw_moonstone": "Raw Moonstone",
+  "item.custom_ores.moonstone_ingot": "Moonstone Ingot",
+  "item.custom_ores.moonstone_nugget": "Moonstone Nugget",
 
   "item.custom_ores.metal_detector.no_valuables": "No Valuables Found",
-  "item.custom_ores.metal_detector": "Metal Detector"
+  "item.custom_ores.metal_detector": "Metal Detector",
+  "item.custom_ores.metal_detector.tooltip.shift": "Right Click To Find Valuables",
+  "item.custom_ores.metal_detector.tooltip": "Press §eSHIFT§r For More Information",
+
+  "item.custom_ores.lilac_flower_bulb": "Lilac Flower Bulb",
+
+  "item.custom_ores.grape": "Grape"
 }

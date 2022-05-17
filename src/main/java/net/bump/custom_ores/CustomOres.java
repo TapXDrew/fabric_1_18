@@ -2,7 +2,9 @@ package net.bump.custom_ores;
 
 import net.bump.custom_ores.block.ModBlocks;
 import net.bump.custom_ores.item.ModItems;
+import net.bump.custom_ores.util.ModRegistries;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.event.AutoInvokingEvent;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -18,6 +20,8 @@ public class CustomOres implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModRegistries.registerModItems();
 	}
 
 	public static String fString(String s, Map<String, Object> data){

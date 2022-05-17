@@ -1,20 +1,29 @@
 package net.bump.custom_ores.block;
 
 import net.bump.custom_ores.CustomOres;
+import net.bump.custom_ores.block.custom.ShadowstoneBlock;
 import net.bump.custom_ores.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Material;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
+import net.minecraft.text.TranslatableText;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class ModBlocks {
-
     public static final Block SHDAOWSTONE_BLOCK = registerBlock("moonstone_block",
-            new Block(FabricBlockSettings.of(Material.METAL)
+            new ShadowstoneBlock(FabricBlockSettings.of(Material.METAL)
                     .strength(6f)
                     .requiresTool()
             ), ModItemGroup.MOONSTONE);
@@ -47,6 +56,21 @@ public class ModBlocks {
 
     private static void registerBlockItem(String name, Block block, ItemGroup group) {
         Registry.register(Registry.ITEM, new Identifier(CustomOres.MOD_ID, name), new BlockItem(block, new FabricItemSettings().group(group)));
+    }
+
+    private static Block registerBlock(String name, Block block, ItemGroup group, String tooltipkey) {
+        registerBlockItem(name, block, group, tooltipkey);
+        return Registry.register(Registry.BLOCK, new Identifier(CustomOres.MOD_ID, name), block);
+    }
+
+    private static void registerBlockItem(String name, Block block, ItemGroup group, String tooltipkey) {
+        Registry.register(Registry.ITEM, new Identifier(CustomOres.MOD_ID, name),
+            new BlockItem(block, new FabricItemSettings().group(group)){
+                @Override
+                public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+                    tooltip.add(new TranslatableText(tooltipkey));
+                }
+            });
     }
 
     public static void registerModBlocks() {
