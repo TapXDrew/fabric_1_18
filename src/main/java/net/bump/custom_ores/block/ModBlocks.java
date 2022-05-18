@@ -1,12 +1,13 @@
 package net.bump.custom_ores.block;
 
 import net.bump.custom_ores.CustomOres;
+import net.bump.custom_ores.block.custom.ModPressurePlateBlock;
+import net.bump.custom_ores.block.custom.ModStoneButtonBlock;
 import net.bump.custom_ores.block.custom.ShadowstoneBlock;
 import net.bump.custom_ores.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
+import net.minecraft.block.*;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -48,6 +49,36 @@ public class ModBlocks {
                     .strength(5f)
                     .requiresTool()
             ), ModItemGroup.MOONSTONE);
+
+
+    public static final Block SHDAOWSTONE_BUTTON = registerBlock("moonstone_button",
+            new ModStoneButtonBlock(FabricBlockSettings.of(Material.METAL)
+                    .strength(4f)
+                    .requiresTool()
+                    .noCollision()
+            ), ModItemGroup.MOONSTONE);
+    public static final Block SHDAOWSTONE_PRESSURE_PLATE = registerBlock("moonstone_pressure_plate",
+            new ModPressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING, FabricBlockSettings.of(Material.METAL)
+                    .strength(4f)
+                    .requiresTool()
+            ), ModItemGroup.MOONSTONE);
+
+    public static final Block SHDAOWSTONE_FENCE = registerBlock("moonstone_fence",
+            new FenceBlock(FabricBlockSettings.of(Material.METAL)
+                    .strength(4f)
+                    .requiresTool()
+            ), ModItemGroup.MOONSTONE);
+    public static final Block SHDAOWSTONE_FENCE_GATE = registerBlock("moonstone_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.of(Material.METAL)
+                    .strength(4f)
+                    .requiresTool()
+            ), ModItemGroup.MOONSTONE);
+    public static final Block SHDAOWSTONE_WALL = registerBlock("moonstone_wall",
+            new WallBlock(FabricBlockSettings.of(Material.METAL)
+                    .strength(4f)
+                    .requiresTool()
+            ), ModItemGroup.MOONSTONE);
+
 
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
