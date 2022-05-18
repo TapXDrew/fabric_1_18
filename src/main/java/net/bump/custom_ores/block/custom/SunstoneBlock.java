@@ -6,16 +6,11 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
 import net.minecraft.entity.effect.StatusEffects;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.text.LiteralText;
-import net.minecraft.util.ActionResult;
-import net.minecraft.util.Hand;
-import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
-public class ShadowstoneBlock extends Block {
-    public ShadowstoneBlock(Settings settings) {
+public class SunstoneBlock extends Block {
+    public SunstoneBlock(Settings settings) {
         super(settings);
     }
 

@@ -1,21 +1,39 @@
 {
   "itemGroup.custom_ores.moonstone": "Moonstone Items",
+  "itemGroup.custom_ores.sunstone": "Sunstone Items",
 
   "block.custom_ores.moonstone_block": "Moonstone Block",
   "block.custom_ores.raw_moonstone_block": "Raw Moonstone Block",
-
   "block.custom_ores.moonstone_ore": "Moonstone Ore",
   "block.custom_ores.deepslate_moonstone_ore": "Deepslate Moonstone Ore",
   "block.custom_ores.netherrack_moonstone_ore": "Nether Moonstone Ore",
-
   "item.custom_ores.raw_moonstone": "Raw Moonstone",
   "item.custom_ores.moonstone_ingot": "Moonstone Ingot",
   "item.custom_ores.moonstone_nugget": "Moonstone Nugget",
+  "block.custom_ores.moonstone_button": "Moonstone Button",
+  "block.custom_ores.moonstone_pressure_plate": "Moonstone Pressure Plate",
+  "block.custom_ores.moonstone_fence": "Moonstone Fence",
+  "block.custom_ores.moonstone_fence_gate": "Moonstone Fence Gate",
+  "block.custom_ores.moonstone_wall": "Moonstone Wall",
 
-  "item.custom_ores.metal_detector.no_valuables": "No Valuables Found",
+  "block.custom_ores.sunstone_block": "Sunstone Block",
+  "block.custom_ores.raw_sunstone_block": "Raw Sunstone Block",
+  "block.custom_ores.sunstone_ore": "Sunstone Ore",
+  "block.custom_ores.deepslate_sunstone_ore": "Deepslate Sunstone Ore",
+  "block.custom_ores.netherrack_sunstone_ore": "Nether Sunstone Ore",
+  "item.custom_ores.raw_sunstone": "Raw Sunstone",
+  "item.custom_ores.sunstone_ingot": "Sunstone Ingot",
+  "item.custom_ores.sunstone_nugget": "Sunstone Nugget",
+  "block.custom_ores.sunstone_button": "Sunstone Button",
+  "block.custom_ores.sunstone_pressure_plate": "Sunstone Pressure Plate",
+  "block.custom_ores.sunstone_fence": "Sunstone Fence",
+  "block.custom_ores.sunstone_fence_gate": "Sunstone Fence Gate",
+  "block.custom_ores.sunstone_wall": "Sunstone Wall",
+
   "item.custom_ores.metal_detector": "Metal Detector",
-  "item.custom_ores.metal_detector.tooltip.shift": "Right Click To Find Valuables",
+  "item.custom_ores.metal_detector.no_valuables": "No Valuables Found",
   "item.custom_ores.metal_detector.tooltip": "Press §eSHIFT§r For More Information",
+  "item.custom_ores.metal_detector.tooltip.shift": "Right Click To Find Valuables",
 
   "item.custom_ores.lilac_flower_bulb": "Lilac Flower Bulb",
 

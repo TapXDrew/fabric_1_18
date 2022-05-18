@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "powered=false": { "model": "custom_ores:block/sunstone_pressure_plate" },
+    "powered=true": { "model": "custom_ores:block/sunstone_pressure_plate_down" }
+  }
+}

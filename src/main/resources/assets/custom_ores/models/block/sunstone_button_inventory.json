@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "custom_ores:block/sunstone_block"
+  }
+}

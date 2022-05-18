@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sunstone_ingot",
+  "ingredients": [
+    {
+      "tag": "c:raw_sunstone_blocks"
+    }
+  ],
+  "result": {
+    "item": "custom_ores:raw_sunstone",
+    "count": 9
+  }
+}

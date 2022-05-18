@@ -9,16 +9,28 @@ import net.minecraft.item.Item;
 
 
 public class ModItems {
-    public static final Item SHDAOWSTONE_INGOT = registerItem("moonstone_ingot", new Item(new FabricItemSettings()
+    public static final Item MOONSTONE_INGOT = registerItem("moonstone_ingot", new Item(new FabricItemSettings()
             .group(ModItemGroup.MOONSTONE)
     ));
 
-    public static final Item SHDAOWSTONE_NUGGET = registerItem("moonstone_nugget", new Item(new FabricItemSettings()
+    public static final Item MOONSTONE_NUGGET = registerItem("moonstone_nugget", new Item(new FabricItemSettings()
             .group(ModItemGroup.MOONSTONE)
     ));
 
-    public static final Item RAW_SHDAOWSTONE = registerItem("raw_moonstone", new Item(new FabricItemSettings()
+    public static final Item RAW_MOONSTONE = registerItem("raw_moonstone", new Item(new FabricItemSettings()
             .group(ModItemGroup.MOONSTONE)
+    ));
+
+    public static final Item SUNSTONE_INGOT = registerItem("sunstone_ingot", new Item(new FabricItemSettings()
+            .group(ModItemGroup.SUNSTONE)
+    ));
+
+    public static final Item SUNSTONE_NUGGET = registerItem("sunstone_nugget", new Item(new FabricItemSettings()
+            .group(ModItemGroup.SUNSTONE)
+    ));
+
+    public static final Item RAW_SUNSTONE = registerItem("raw_sunstone", new Item(new FabricItemSettings()
+            .group(ModItemGroup.SUNSTONE)
     ));
 
     public static final Item METAL_DETECTOR = registerItem("metal_detector", new MetalDetectorItem(new FabricItemSettings()

@@ -28,6 +28,12 @@ public class ModTags {
         public static final TagKey<Item> MOONSTONE_NUGGET = createCommonTag("moonstone_nuggets");
         public static final TagKey<Item> RAW_MOONSTONE = createCommonTag("raw_moonstones");
 
+        public static final TagKey<Item> SUNSTONE_BLOCK = createCommonTag("sunstone_blocks");
+        public static final TagKey<Item> RAW_SUNSTONE_BLOCK = createCommonTag("raw_sunstone_blocks");
+        public static final TagKey<Item> SUNSTONE_INGOT = createCommonTag("sunstone_ingots");
+        public static final TagKey<Item> SUNSTONE_NUGGET = createCommonTag("sunstone_nuggets");
+        public static final TagKey<Item> RAW_SUNSTONE = createCommonTag("raw_sunstones");
+
         private static TagKey<Item> createTag (String name) {
             return TagKey.of(Registry.ITEM_KEY, new Identifier(CustomOres.MOD_ID, name));
         }

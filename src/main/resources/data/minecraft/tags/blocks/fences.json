@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "custom_ores:moonstone_fence"
+    "custom_ores:moonstone_fence",
+    "custom_ores:sunstone_fence"
   ]
 }

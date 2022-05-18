@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "sunstone_ingot",
+  "ingredients": [
+    {
+      "tag": "c:sunstone_ingots"
+    }
+  ],
+  "result": {
+    "item": "custom_ores:sunstone_nugget",
+    "count": 9
+  }
+}

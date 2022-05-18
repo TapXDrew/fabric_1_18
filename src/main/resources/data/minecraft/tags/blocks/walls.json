@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "custom_ores:moonstone_wall"
+    "custom_ores:moonstone_wall",
+    "custom_ores:sunstone_wall"
   ]
 }

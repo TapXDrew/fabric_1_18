@@ -4,6 +4,9 @@
     "custom_ores:moonstone_ore",
     "custom_ores:deepslate_moonstone_ore",
 
+    "custom_ores:sunstone_ore",
+    "custom_ores:deepslate_sunstone_ore",
+
     "minecraft:redstone_ore",
     "minecraft:deepslate_redstone_ore",
 

@@ -5,6 +5,12 @@
     "custom_ores:raw_moonstone_block",
     "custom_ores:moonstone_ore",
     "custom_ores:deepslate_moonstone_ore",
-    "custom_ores:netherrack_moonstone_ore"
+    "custom_ores:netherrack_moonstone_ore",
+
+    "custom_ores:sunstone_block",
+    "custom_ores:raw_sunstone_block",
+    "custom_ores:sunstone_ore",
+    "custom_ores:deepslate_sunstone_ore",
+    "custom_ores:netherrack_sunstone_ore"
   ]
 }
